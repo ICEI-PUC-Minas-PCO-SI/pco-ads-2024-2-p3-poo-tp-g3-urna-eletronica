@@ -7,18 +7,18 @@
 
 `Eixo: 5`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo deste trabalho é desenvolver um Sistema de gerenciamento de urna eletrônica, com foco em eleições para Prefeito e Vereador.A aplicação será dividida em dois módulos principais: Eleições do Executivo e Eleições do Legislativo, seguindo as regras definidas pela legislação eleitoral brasileira. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+
+* Eduarda Silva Santos Nunis
+* Matheus Felipe Galdino
 * Míriam Cristina Alves de Jesus
 * Rafael Brandão Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Fabio Leandro Rodrigues Cordeiro
 
 
