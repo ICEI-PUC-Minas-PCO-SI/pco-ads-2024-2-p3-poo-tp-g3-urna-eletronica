@@ -7,7 +7,7 @@
 
 `Eixo: 5`
 
-O objetivo deste trabalho é desenvolver um sistema de gerenciamento de urna eletrônica, com foco em eleições para Prefeito e Vereador. A aplicação será dividida em dois módulos principais: Eleições do Executivo e Eleições do Legislativo, seguindo as regras definidas pela legislação eleitoral brasileira. 
+Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foco em eleições para Prefeito e Vereador. A aplicação é dividida em dois módulos principais: Eleições do Executivo e Eleições do Legislativo, seguindo as regras definidas pela legislação eleitoral brasileira. 
 
 ## Integrantes
 
