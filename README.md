@@ -23,13 +23,13 @@ Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foc
 
  ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1  
+:heavy_check_mark: Autenticação do eleitor (identificação e elegibilidade).
 
-:heavy_check_mark: Funcionalidade 2  
+:heavy_check_mark: Registro do voto com anonimato e segurança.
 
-:heavy_check_mark: Funcionalidade 3  
+:heavy_check_mark: Encerramento e geração de resultados (boletim de urna).
 
-:heavy_check_mark: Funcionalidade 4  
+:heavy_check_mark: Usabilidade e acessibilidade para diferentes perfis de eleitores.
 
 ## Layout ou Deploy da Aplicação :dash:
 
