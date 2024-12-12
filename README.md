@@ -49,12 +49,15 @@ Liste todas as dependencias e libs que o usuário deve ter instalado na máquina
 
 ## Como rodar a aplicação :arrow_forward:
 
-No terminal, clone o projeto: 
+1- No terminal, clone o projeto: 
 
 ```
 git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
 ```
-
+2- Navegue até o diretório clonado
+```
+cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
+```
 ... 
 
 Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
