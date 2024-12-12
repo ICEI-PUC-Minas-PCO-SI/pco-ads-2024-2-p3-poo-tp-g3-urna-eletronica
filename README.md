@@ -69,11 +69,11 @@ $ npm test, rspec, etc
 
 ## Casos de Uso
 
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
-
-Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
+Diagrama casos de uso
 
 ## Classes
+
+Diagrama de classes
 
 ## JSON :floppy_disk:
 
