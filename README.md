@@ -66,19 +66,27 @@ node.js
 ```
 npm install
 ```
-4- Execute o comando para rodar a aplicação:
+5- Execute o comando para rodar a aplicação:
 ```
 npm start
 ```
 
 
 ## Como rodar os testes
-
-Coloque um passo a passo para executar os testes
-
+1- Clone o projeto e navegue até o diretório clonado:
 ```
-$ npm test, rspec, etc 
+git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
+cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
 ```
+2- Caso ainda não tenha feito, instale as dependências:
+```
+npm install
+```
+3- Execute o comando de teste:
+```
+npm test
+```
+
 
 ## Casos de Uso
 
