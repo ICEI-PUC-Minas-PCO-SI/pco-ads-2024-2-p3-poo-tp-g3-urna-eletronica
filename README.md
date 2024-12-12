@@ -54,13 +54,23 @@ Liste todas as dependencias e libs que o usuário deve ter instalado na máquina
 ```
 git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
 ```
-2- Navegue até o diretório clonado
+2- Navegue até o diretório clonado:
 ```
 cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
 ```
-... 
+3- Faça a instalação do node.js:
+```
+node.js
+```
+4- Faça a instalação das dependência(se necessário):
+```
+npm install
+```
+4- Execute o comando para rodar a aplicação:
+```
+npm start
+```
 
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
 ## Como rodar os testes
 
