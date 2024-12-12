@@ -73,6 +73,8 @@ Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso d
 
 Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
 
+## Classes
+
 ## JSON :floppy_disk:
 
 ### Usuários: 
