@@ -23,7 +23,9 @@ Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foc
 
 ## Modelagem das Classes
 
-A aplicação foi desenvolvida seguindo os pilares da programação orientada a objetos. Segue o diagrama de classes utilizado para representar sua estrutura.
+A aplicação foi desenvolvida seguindo os pilares da programação orientada a objetos. Segue o diagrama de classes utilizado para representar sua estrutura:
+
+![Eleicao2 drawio](https://github.com/user-attachments/assets/2d9809b3-d9d0-4d72-b4e1-b9a433f0ffb1)
 
 
  ## Funcionalidades
