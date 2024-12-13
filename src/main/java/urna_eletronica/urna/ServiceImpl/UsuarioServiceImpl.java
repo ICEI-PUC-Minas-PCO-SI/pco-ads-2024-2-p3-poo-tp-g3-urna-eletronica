@@ -64,5 +64,20 @@ public class UsuarioServiceImpl implements UsuarioService {
     List<Usuario> list = usuarioRepository.findAll();
     return list.stream().map(Usuario::toVo).toList();
   }
+
+  @Override
+  public String excluirUsuario(Long id) {
+    Optional<Usuario> user = usuarioRepository.findById(id);
+   if(user.isPresent()){
+    try {
+      usuarioRepository.delete(user.get());
+      return "Usuario excluido";
+    } catch (Exception e) {
+      System.out.println("Error caiu no catch");
+      return "Problema para excluir";
+    }
+   }
+    return "Usuario não existe";
+  }
 }
 

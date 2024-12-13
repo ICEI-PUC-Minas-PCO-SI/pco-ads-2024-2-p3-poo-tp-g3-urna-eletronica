@@ -9,4 +9,5 @@ public interface UsuarioService{
   String cadastrarUsuario(UsuarioVo user);
   UsuarioVo verificarUsuario(UsuarioVo user);
   List<UsuarioVo> findAll();
+  String excluirUsuario(Long id);
 }

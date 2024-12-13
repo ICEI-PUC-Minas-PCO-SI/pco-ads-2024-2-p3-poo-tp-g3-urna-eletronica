@@ -6,13 +6,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import urna_eletronica.urna.Services.UsuarioService;
 import urna_eletronica.urna.VO.UsuarioVo;
+
 
 
 
@@ -37,6 +40,11 @@ public class UsuarioController {
   @GetMapping("/findAll")
   public List<UsuarioVo> findAll() {
     return usuarioService.findAll();
+  }
+
+  @PutMapping("/excluir/{id}")
+  public String excluirUsuario(@PathVariable Long id) {
+      return usuarioService.excluirUsuario(id);
   }
   
   
