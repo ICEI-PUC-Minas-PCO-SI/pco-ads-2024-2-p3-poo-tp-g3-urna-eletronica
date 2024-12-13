@@ -21,6 +21,11 @@ Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foc
 
 * Fabio Leandro Rodrigues Cordeiro
 
+## Modelagem das Classes
+
+A aplicação foi desenvolvida seguindo os pilares da programação orientada a objetos. Segue o diagrama de classes utilizado para representar sua estrutura.
+
+
  ## Funcionalidades
 
 :heavy_check_mark: Autenticação do eleitor (identificação e elegibilidade).
@@ -88,52 +93,36 @@ npm test
 ```
 
 
-## Casos de Uso
+## Principio do Projeto
 
-Diagrama casos de uso
+O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios: :heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;
+:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;
+:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.
 
-## Classes
+## Padrão da Aplicação
 
-Diagrama de classes
+O padrão utilizado foi o Singleton, aplicado para assegurar que somente uma instância da eleição seja criada e gerenciada.
 
-## JSON :floppy_disk:
+### Tecnologias Utilizadas
 
-### Usuários: 
+<H1>Back End</H1> 
+*Linguagem de Prgramação:* JAVA;
+*Framework:* Spring;
+*Banco de Dados:* ;
 
-|name|email|password|token|avatar|
-| -------- |-------- |-------- |-------- |-------- |
-|Lais Lima|laislima98@hotmail.com|lais123|true|https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU|
+<H1>Front End</H1> 
+*Formatação: HTML;
+*Estilização*: CSS;
 
-... 
+<H1>Ambiente de hospedagem do repositório</H1> 
+*GitHub*
 
-Se quiser, coloque uma amostra do banco de dados 
+## Testes
 
-## Iniciando/Configurando banco de dados
+coloque os testes
 
-Se for necessário configurar algo antes de iniciar o banco de dados insira os comandos a serem executados 
 
-## Linguagens, dependencias e libs utilizadas :books:
 
-- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
-- [React PDF](https://react-pdf.org/)
-
-...
-
-Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github 
-
-## Resolvendo Problemas :exclamation:
-
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
-
-## Tarefas em aberto
-
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
-
-:memo: Tarefa 1 
-
-:memo: Tarefa 2 
-
-:memo: Tarefa 3 
 
 
 
