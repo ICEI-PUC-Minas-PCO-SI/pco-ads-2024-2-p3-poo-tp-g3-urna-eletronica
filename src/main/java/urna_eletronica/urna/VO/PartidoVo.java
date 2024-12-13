@@ -11,5 +11,7 @@ public  class PartidoVo {
   private String sigla;
   private List<CandidatoVo> candidatoVo;
 
+  public PartidoVo(){}
+
 
 }
