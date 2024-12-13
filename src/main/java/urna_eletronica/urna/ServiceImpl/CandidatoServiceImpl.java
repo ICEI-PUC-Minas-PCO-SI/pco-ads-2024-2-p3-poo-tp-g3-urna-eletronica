@@ -21,6 +21,7 @@ public class CandidatoServiceImpl implements CandidatoService {
   @Autowired private PartidoRepository partidoRepository;
 
   private Candidato toEntity(CandidatoVo vo){
+    
     Candidato newCandidato = new Candidato();
     newCandidato.setCargo(vo.getCargoDisputado());
     newCandidato.setCpf(vo.getCpf());
@@ -36,8 +37,9 @@ public class CandidatoServiceImpl implements CandidatoService {
 
   private void verificarPartido(Candidato candidato, Long id){
     Optional<Partido> partido = partidoRepository.findById(id);
+    
     if(!partido.isPresent()){
-      candidato.setPartido(partido.get());
+       candidato.setPartido(partido.get());
     }
   }
 
