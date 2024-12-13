@@ -14,6 +14,7 @@ public class PartidoServiceImpl implements PartidoService {
   @Autowired private PartidoRepository  partidoRepository;
   
   private Partido toEntity(PartidoVo vo){
+    
     Partido partido = new Partido();
 
     return partido;
@@ -26,6 +27,7 @@ public class PartidoServiceImpl implements PartidoService {
     newPartido.setSigla(vo.getSigla());
     if(newPartido != null){
       try {
+        
         partidoRepository.save(newPartido);
         return "Partido criado com sucesso";
       } catch (Exception e) {
