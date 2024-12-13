@@ -52,51 +52,6 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 :warning: [Node](https://nodejs.org/en/download/)
 
-...
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
-
-## Como rodar a aplicação :arrow_forward:
-
-1- No terminal, clone o projeto: 
-
-```
-git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
-```
-2- Navegue até o diretório clonado:
-```
-cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
-```
-3- Faça a instalação do node.js:
-```
-node.js
-```
-4- Faça a instalação das dependência(se necessário):
-```
-npm install
-```
-5- Execute o comando para rodar a aplicação:
-```
-npm start
-```
-
-
-## Como rodar os testes
-1- Clone o projeto e navegue até o diretório clonado:
-```
-git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
-cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
-```
-2- Caso ainda não tenha feito, instale as dependências:
-```
-npm install
-```
-3- Execute o comando de teste:
-```
-npm test
-```
-
-
 ## Principio do Projeto
 
 O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios: :heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;
