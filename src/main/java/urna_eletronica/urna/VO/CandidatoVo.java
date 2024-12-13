@@ -9,7 +9,7 @@ public class CandidatoVo extends UsuarioVo {
   private PleitoVo pleitoVo;
   private Integer codigo;
 
-  CandidatoVo(String _nome, String _email, String _senha, String _cpf, Integer idade){
+  public CandidatoVo(String _nome, String _email, String _senha, String _cpf, Integer idade){
     super(_nome, _email, _senha, _cpf, idade);
   }
 
