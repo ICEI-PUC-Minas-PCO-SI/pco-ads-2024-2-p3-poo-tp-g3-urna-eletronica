@@ -27,11 +27,14 @@ public class AdministradorServiceImpl implements AdministradorService {
 
   @Override
   public String cadastrarAdministrador(AdministradorVo vo) {
+    
     Administrador adm = toEntity(vo);
     if(adm != null){
       try {
+        
         administradorRepository.save(adm);
         return "Cadastro do administrador feito com sucesso";
+        
       } catch (Exception e) {
         // TODO: 
         System.out.println(e.getMessage());
