@@ -29,7 +29,8 @@ public class ScheduledTasks {
         List<PleitoLegislativo> pleitos = pleitoLegislativoRepository.findAll();
 
         // for (PleitoLegislativo pleito : pleitos) {
-        //     try {
+        //     try 
+        
         //         pleitoLegislativoService.apurarResultadosPleitoLegislativo(pleito);
         //         logger.info("Apuração concluída para o pleito: {}", pleito.getId());
         //     } catch (Exception e) {
