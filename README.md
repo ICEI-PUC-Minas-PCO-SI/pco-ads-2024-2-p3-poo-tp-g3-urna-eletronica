@@ -112,7 +112,7 @@ O padrão utilizado foi o Singleton, aplicado para assegurar que somente uma ins
 <H6>Back End</H6> 
 * Linguagem de Prgramação: JAVA;
 * Framework: Spring;
-* Banco de Dados:;
+* Banco de Dados: H2 DataBase
 
 <H6>Front End</H6> 
 * Formatação: HTML;
