@@ -42,13 +42,6 @@ O objetivo deste trabalho é uma aplicação para simular uma urna eletrônica b
 
 :heavy_check_mark: Usabilidade e acessibilidade para diferentes perfis de eleitores.
 
-## Layout ou Deploy da Aplicação :dash:
-
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
-
-... 
-
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ## Pré-requisitos
 
@@ -57,9 +50,13 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 ## Principio do Projeto
 
 O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios:\br
-:heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;\br
-:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;\br
-:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.\br
+:heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;
+
+
+:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;
+
+
+:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.
 
 ## Padrão da Aplicação
 
@@ -68,12 +65,23 @@ Os padrões utilizados foram o Singleton, aplicado para assegurar que somente um
 ### Tecnologias Utilizadas
 
 <H6>Back End</H6> 
-* Linguagem de Prgramação: JAVA\br
-* Framework: Spring\br
-* Banco de Dados: H2 DataBase\br
+
+
+* Linguagem de Prgramação: JAVA
+
+  
+* Framework: Spring
+
+  
+* Banco de Dados: H2 DataBase
+
+  
 
 <H6>Front End</H6> 
-* Formatação: HTML\br
+
+* Formatação: HTML
+
+  
 * Estilização: CSS
 
 <H6>Ambiente de hospedagem do repositório</H6> 
