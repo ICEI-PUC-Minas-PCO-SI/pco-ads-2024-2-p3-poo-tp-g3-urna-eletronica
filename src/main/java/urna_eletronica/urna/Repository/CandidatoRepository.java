@@ -9,6 +9,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import urna_eletronica.urna.Entity.Candidato;
+
 @Repository
 public interface CandidatoRepository extends JpaRepository<Candidato, Long> {
   
