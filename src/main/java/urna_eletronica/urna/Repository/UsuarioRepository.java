@@ -11,6 +11,7 @@ import urna_eletronica.urna.Entity.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
+  
   boolean existsByCpf(String cpf);
    @Query(value = "SELECT * FROM usuario u WHERE u.cpf = :cpf AND u.senha = :senha", nativeQuery = true)
     Optional<Usuario> findByCpfAndSenha(@Param("cpf") String cpf, @Param("senha") String senha);
