@@ -11,10 +11,11 @@ public class AdministradorVo extends UsuarioVo {
   private boolean podeVerResultados;
 
   public AdministradorVo(
-    String _nome, String _email, String _senha, String _cpf, String _funcao,
-    boolean _temAcessoTotal, boolean _podeAlterarPleitos,
-    boolean _podeGerenciarCandidatos, boolean _podeVerResultados, Integer idade
+      String _nome, String _email, String _senha, String _cpf, String _funcao,
+      boolean _temAcessoTotal, boolean _podeAlterarPleitos,
+      boolean _podeGerenciarCandidatos, boolean _podeVerResultados, Integer idade
   ){
+    
     super(_nome, _email, _senha, _cpf, idade);
     this.funcao = _funcao;
     this.temAcessoTotal = _temAcessoTotal;
