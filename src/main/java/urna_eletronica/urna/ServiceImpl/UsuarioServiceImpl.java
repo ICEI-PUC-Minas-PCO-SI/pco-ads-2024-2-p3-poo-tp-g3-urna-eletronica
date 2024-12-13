@@ -17,11 +17,14 @@ public class UsuarioServiceImpl implements UsuarioService {
   
 
   private Usuario toEntity(UsuarioVo entity){
+    
     Usuario usuario = new Usuario();
+    
     usuario.setCpf(entity.getCpf());
     usuario.setEmail(entity.getEmail());
     usuario.setNome(entity.getNome());
     usuario.setSenha(entity.getSenha());
+    
     return usuario;
   }
 
@@ -42,7 +45,9 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     try {
       Optional<Usuario> usuario = usuarioRepository.findByCpfAndSenha( user.getCpf(), user.getSenha());
+      
       if(usuario.isPresent()){
+        
         UsuarioVo usuarioVo = usuario.get().toVo();
         return usuarioVo;
      }
