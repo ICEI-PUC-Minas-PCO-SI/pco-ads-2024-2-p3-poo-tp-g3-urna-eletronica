@@ -25,7 +25,7 @@ public class UsuarioController {
 
   @PostMapping("/login")
   public ResponseEntity<?> verificarLogin(@RequestBody UsuarioVo entity) {
-
+    UsuarioVo user = usuarioService.verificarUsuario(entity);
     return user != null ? ResponseEntity.ok(user) : ResponseEntity.status(HttpStatus.NOT_FOUND).body("Usuario não encontrado");
   }
   
