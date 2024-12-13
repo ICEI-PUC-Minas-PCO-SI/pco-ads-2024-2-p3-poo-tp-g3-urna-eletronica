@@ -86,7 +86,16 @@ public int calcularQuocienteEleitoral(PleitoLegislativo pleito) {
   
     return Math.toIntExact(votosValidos / pleito.getVagasDisponiveis());
 }
-// 
+
+public Map<Partido, Integer> calcularQuocientePartidário(PleitoLegislativo pleito) {
+    int quocienteEleitoral = calcularQuocienteEleitoral(pleito);
+
+    return calcularVotosPorPartido(pleito).entrySet().stream()
+        .collect(Collectors.toMap(
+            Map.Entry::getKey, // Partido
+            entry -> entry.getValue() / quocienteEleitoral 
+        ));
+}
 
 
 
