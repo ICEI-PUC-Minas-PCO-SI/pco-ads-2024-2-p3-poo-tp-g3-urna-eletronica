@@ -21,6 +21,8 @@ public class ScheduledTasks {
     @Autowired private PleitoLegislativoService pleitoLegislativoService;
     @Autowired private PleitoLegislativoRespository pleitoLegislativoRepository;
 
+    
+
     private static final Logger logger = LoggerFactory.getLogger(ScheduledTasks.class);
 
     @Scheduled(cron = "0 */1 * * * ?")

@@ -97,6 +97,8 @@ public Map<Partido, Integer> calcularQuocientePartidário(PleitoLegislativo plei
         ));
 }
 
+
+
 public Map<Partido, Integer> calcularVotosPorPartido(Pleito pleito) {
     List<Voto> votos = votoRepository.findByPleito(pleito); // Recupera todos os votos do pleito
 

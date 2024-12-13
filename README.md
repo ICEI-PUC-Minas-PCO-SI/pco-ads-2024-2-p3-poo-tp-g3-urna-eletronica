@@ -23,9 +23,11 @@ Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foc
   
 ## Objetivo
 
+O objetivo deste trabalho é uma aplicação para simular uma urna eletrônica baseada na legislação brasileira utilizando os conceitos vistos ao longo do curso de poo.
+
 ## Modelagem das Classes
 
-A aplicação foi desenvolvida seguindo os pilares da programação orientada a objetos. Segue o diagrama de classes utilizado para representar sua estrutura:
+ Segue o diagrama de classes utilizado para representar sua estrutura:
 
 ![Eleicao2 drawio](https://github.com/user-attachments/assets/2d9809b3-d9d0-4d72-b4e1-b9a433f0ffb1)
 
@@ -52,56 +54,12 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 :warning: [Node](https://nodejs.org/en/download/)
 
-...
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
-
-## Como rodar a aplicação :arrow_forward:
-
-1- No terminal, clone o projeto: 
-
-```
-git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
-```
-2- Navegue até o diretório clonado:
-```
-cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
-```
-3- Faça a instalação do node.js:
-```
-node.js
-```
-4- Faça a instalação das dependência(se necessário):
-```
-npm install
-```
-5- Execute o comando para rodar a aplicação:
-```
-npm start
-```
-
-
-## Como rodar os testes
-1- Clone o projeto e navegue até o diretório clonado:
-```
-git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica.git
-cd pco-ads-2024-2-p3-poo-tp-g3-urna-eletronica
-```
-2- Caso ainda não tenha feito, instale as dependências:
-```
-npm install
-```
-3- Execute o comando de teste:
-```
-npm test
-```
-
-
 ## Principio do Projeto
 
-O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios: :heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;
-:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;
-:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.
+O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios:\br
+:heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;\br
+:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;\br
+:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.\br
 
 ## Padrão da Aplicação
 
@@ -110,20 +68,17 @@ O padrão utilizado foi o Singleton, aplicado para assegurar que somente uma ins
 ### Tecnologias Utilizadas
 
 <H6>Back End</H6> 
-* Linguagem de Prgramação: JAVA;
-* Framework: Spring;
-* Banco de Dados:;
+* Linguagem de Prgramação: JAVA
+* Framework: Spring
+* Banco de Dados: H2 DataBase
 
 <H6>Front End</H6> 
-* Formatação: HTML;
-* Estilização: CSS;
+* Formatação: HTML
+* Estilização: CSS
 
 <H6>Ambiente de hospedagem do repositório</H6> 
 * GitHub
 
-## Testes
-
-coloque os testes
 
 
 
