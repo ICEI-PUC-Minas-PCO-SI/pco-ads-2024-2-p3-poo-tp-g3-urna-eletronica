@@ -62,10 +62,12 @@ public class PleitoLegislativoServiceImpl implements PleitoLegislativoService {
 public void apurarResultadosPleitoLegislativo(PleitoLegislativo pleito) {
     // 1. Calcular os votos válidos
     int votosValidos = calcularVotosValidos(pleito);
+  
     pleito.setVotosValidos(votosValidos);
 
     // 2. Calcular o Quociente Eleitoral
     int quocienteEleitoral = calcularQuocienteEleitoral(pleito);
+  
     pleito.setQuocienteEleitoral(quocienteEleitoral);
 
     // 3. Calcular o Quociente Partidário e distribuir cadeiras
@@ -81,6 +83,7 @@ private int calcularVotosValidos(PleitoLegislativo pleito) {
 
 public int calcularQuocienteEleitoral(PleitoLegislativo pleito) {
     long votosValidos = votoRepository.findByPleito(pleito).size();
+  
     return Math.toIntExact(votosValidos / pleito.getVagasDisponiveis());
 }
 
