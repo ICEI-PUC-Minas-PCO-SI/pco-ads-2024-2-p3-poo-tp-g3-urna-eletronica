@@ -23,9 +23,11 @@ Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foc
   
 ## Objetivo
 
+O objetivo deste trabalho é uma aplicação para simular uma urna eletrônica baseada na legislação brasileira utilizando os conceitos vistos ao longo do curso de poo.
+
 ## Modelagem das Classes
 
-A aplicação foi desenvolvida seguindo os pilares da programação orientada a objetos. Segue o diagrama de classes utilizado para representar sua estrutura:
+ Segue o diagrama de classes utilizado para representar sua estrutura:
 
 ![Eleicao2 drawio](https://github.com/user-attachments/assets/2d9809b3-d9d0-4d72-b4e1-b9a433f0ffb1)
 
@@ -54,9 +56,10 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ## Principio do Projeto
 
-O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios: :heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;
-:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;
-:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.
+O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem reaproveitado, tenha uma manutenção e entendimento fáceis. É possivel verificar os principios:\br
+:heavy_check_mark: SRP - as classes não possuem mais de um motivo para alterar;\br
+:heavy_check_mark: LSP - os objetos das classes filhas podem substituir das classes mães;\br
+:heavy_check_mark: ISP - o sistema possui interfaces mais especificas do que somente uma geral.\br
 
 ## Padrão da Aplicação
 
@@ -71,14 +74,11 @@ O padrão utilizado foi o Singleton, aplicado para assegurar que somente uma ins
 
 <H6>Front End</H6> 
 * Formatação: HTML;
-* Estilização: CSS;
+* Estilização: CSS
 
 <H6>Ambiente de hospedagem do repositório</H6> 
 * GitHub
 
-## Testes
-
-coloque os testes
 
 
 
