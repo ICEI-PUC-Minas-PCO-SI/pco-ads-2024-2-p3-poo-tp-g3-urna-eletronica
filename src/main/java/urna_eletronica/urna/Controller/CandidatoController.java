@@ -22,6 +22,21 @@ public class CandidatoController {
   
   @Autowired private CandidatoService candidatoService;
 
+    @PostMapping("/cadastro")
+  public ResponseEntity<?> cadastrarCandidato(@RequestBody CandidatoVo entity) {
+      return ResponseEntity.ok(candidatoService.cadastrarCandidato(entity));
+  }
+
+  @GetMapping("/findAll")
+  public List<CandidatoVo> findAllCandidato() {
+      return candidatoService.findAllCandidato();
+  }
+
+  @PostMapping("/findAllPleitoById/{id}")
+  public List<CandidatoVo> findAllPleitoById(@PathVariable Long id) {
+      return candidatoService.findAllPleitoById(id) ;
+  }
+  
 
   @PostMapping("/findBuscarCandidatoCodigo")
   public Long findBuscarCandidatoCodigo(@RequestBody Integer  entity) {
