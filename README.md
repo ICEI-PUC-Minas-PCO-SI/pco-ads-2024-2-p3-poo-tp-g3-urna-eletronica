@@ -110,16 +110,16 @@ O padrão utilizado foi o Singleton, aplicado para assegurar que somente uma ins
 ### Tecnologias Utilizadas
 
 <H6>Back End</H6> 
-*Linguagem de Prgramação: JAVA;
-*Framework: Spring;
-*Banco de Dados:;
+* Linguagem de Prgramação: JAVA;
+* Framework: Spring;
+* Banco de Dados:;
 
 <H6>Front End</H6> 
-*Formatação: HTML;
-*Estilização: CSS;
+* Formatação: HTML;
+* Estilização: CSS;
 
 <H6>Ambiente de hospedagem do repositório</H6> 
-*GitHub
+* GitHub
 
 ## Testes
 
