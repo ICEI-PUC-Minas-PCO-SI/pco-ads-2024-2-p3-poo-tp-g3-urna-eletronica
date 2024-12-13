@@ -1,5 +1,7 @@
 package urna_eletronica.urna.ServiceImpl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -37,6 +39,12 @@ public class PartidoServiceImpl implements PartidoService {
     }
  
     return "Partido não foi salvo!";
+  }
+
+  @Override
+  public List<PartidoVo> findAll() {
+    List<Partido> list = partidoRepository.findAll();
+    return list.stream().map(Partido::toVo).toList();
   }
 
   

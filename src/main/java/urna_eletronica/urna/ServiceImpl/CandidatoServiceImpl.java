@@ -11,6 +11,7 @@ import urna_eletronica.urna.Entity.Partido;
 import urna_eletronica.urna.Entity.Pleito;
 import urna_eletronica.urna.Repository.CandidatoRepository;
 import urna_eletronica.urna.Repository.PartidoRepository;
+import urna_eletronica.urna.Repository.UsuarioRepository;
 import urna_eletronica.urna.Services.CandidatoService;
 import urna_eletronica.urna.VO.CandidatoVo;
 
@@ -19,6 +20,8 @@ public class CandidatoServiceImpl implements CandidatoService {
   
   @Autowired private CandidatoRepository candidatoRepository;
   @Autowired private PartidoRepository partidoRepository;
+
+  @Autowired private UsuarioRepository usuarioRepository;
 
   private Candidato toEntity(CandidatoVo vo){
     
@@ -45,17 +48,19 @@ public class CandidatoServiceImpl implements CandidatoService {
 
   @Override
   public String cadastrarCandidato(CandidatoVo vo) {
-    Candidato candidato = toEntity(vo);
-    if(candidato != null){
-      try {
-        candidatoRepository.save(candidato);
-        return "Candidato cadastrado com sucesso";
-      } catch (Exception e) {
-        System.out.println(e.getMessage());
-        System.out.println("Erro a salvar o candidato");
+    if(usuarioRepository.existsByCpf(vo.getCpf())){
+      Candidato candidato = toEntity(vo);
+      if(candidato != null){
+        try {
+          candidatoRepository.save(candidato);
+          return "Candidato cadastrado com sucesso";
+        } catch (Exception e) {
+          System.out.println(e.getMessage());
+          System.out.println("Erro a salvar o candidato");
+       }
       }
     }
-    return "Candidato não foi salvo";
+    return "Candidato já cadastrado";
   }
 
   @Override

@@ -71,5 +71,13 @@ public class  VotoServiceImpl implements VotoService {
                 Collectors.summingInt(voto -> 1) // Cada voto conta como 1
             ));
 }
+  @Override
+  public Integer buscarVotoCandidato(Long id) {
+    return votoRepository.quantidadeDeVotos(id);
+  }
+  @Override
+  public Integer buscarVotoPleito(Long id) {
+    return votoRepository.quantidadeVotosPleito(id);
+  }
 
 }

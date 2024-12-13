@@ -1,5 +1,6 @@
 package urna_eletronica.urna.ServiceImpl;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +38,7 @@ public class UsuarioServiceImpl implements UsuarioService {
       usuarioRepository.save(toEntity(user));
       return "Usuario criado com sucesso";
     }
-    return "CPF ja cadastrado";
+    return null;
   }
 
   @Override
@@ -56,6 +57,12 @@ public class UsuarioServiceImpl implements UsuarioService {
     } catch (Exception e) {
       return null;
     }
+  }
+
+  @Override
+  public List<UsuarioVo> findAll() {
+    List<Usuario> list = usuarioRepository.findAll();
+    return list.stream().map(Usuario::toVo).toList();
   }
 }
 

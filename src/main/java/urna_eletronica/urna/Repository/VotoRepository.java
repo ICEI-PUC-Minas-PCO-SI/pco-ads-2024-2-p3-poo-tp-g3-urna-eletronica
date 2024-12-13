@@ -19,9 +19,15 @@ public interface VotoRepository extends JpaRepository<Voto, Long> {
   @Query(value = "SELECT * FROM voto WHERE cpf = :cpf AND pleito_id = :pleitoId", nativeQuery = true)
   Optional<Voto> findByCpf(@Param("cpf") String cpf, @Param("pleitoId") Long pleitoId);
 
+  @Query(value = "SELECT COUNT(*)  FROM voto WHERE candidato_id = :id", nativeQuery =  true)
+  Integer quantidadeDeVotos(@Param("id") Long id);
+
+
   List<Voto> findByPleito(Pleito pleito);
 
   long countByCandidato(Candidato candidato);
 
+  @Query(value = "SELECT COUNT(*)  FROM voto WHERE pleito_id = :id", nativeQuery =  true)
+  Integer quantidadeVotosPleito(@Param("id") Long id);
 
 }
