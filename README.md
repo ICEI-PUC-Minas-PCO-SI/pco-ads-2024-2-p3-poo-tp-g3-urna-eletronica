@@ -20,6 +20,8 @@ Este trabalho apresenta um sistema de gerenciamento de urna eletrônica, com foc
 ## Orientador
 
 * Fabio Leandro Rodrigues Cordeiro
+  
+## Objetivo
 
 ## Modelagem das Classes
 
