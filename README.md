@@ -63,17 +63,17 @@ O principio utilizado foi o SOLID, possibilitando que o projeto seja mais bem re
 
 ## Padrão da Aplicação
 
-O padrão utilizado foi o Singleton, aplicado para assegurar que somente uma instância da eleição seja criada e gerenciada.
+Os padrões utilizados foram o Singleton, aplicado para assegurar que somente uma instância da eleição seja criada e gerenciada. E também o VO, Value Object, padrão que representa dados imutáveis, agrupa-os e permite que sejam tratados como um único objeto. 
 
 ### Tecnologias Utilizadas
 
 <H6>Back End</H6> 
-* Linguagem de Prgramação: JAVA
-* Framework: Spring
-* Banco de Dados: H2 DataBase
+* Linguagem de Prgramação: JAVA\br
+* Framework: Spring\br
+* Banco de Dados: H2 DataBase\br
 
 <H6>Front End</H6> 
-* Formatação: HTML
+* Formatação: HTML\br
 * Estilização: CSS
 
 <H6>Ambiente de hospedagem do repositório</H6> 
