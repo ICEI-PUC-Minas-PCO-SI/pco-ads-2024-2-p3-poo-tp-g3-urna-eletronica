@@ -12,4 +12,6 @@ public class VotoVo {
   private CandidatoVo candidatoVo;
   private Date data_hora;
   private String cpf;
+  private Integer votoNulo;
+  private Integer votoBranco;
 }

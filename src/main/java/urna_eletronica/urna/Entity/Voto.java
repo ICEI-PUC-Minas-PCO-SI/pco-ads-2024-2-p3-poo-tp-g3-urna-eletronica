@@ -26,4 +26,8 @@ public class Voto {
   private Date dataHora;
 
   private String cpf;
+
+  private Integer votoNulo;
+
+  private Integer votoBranco;
 }
